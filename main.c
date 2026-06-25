@@ -32,7 +32,7 @@ int main()
     noecho();
     curs_set(0);
     keypad(stdscr, TRUE);
-    init_pair(1, COLOR_YELLOW, -1);
+    init_pair(1, COLOR_WHITE, -1);
     init_pair(2, COLOR_WHITE, -1);
 
     // --- GET TERMINAL SIZE ---
