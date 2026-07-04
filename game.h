@@ -9,5 +9,6 @@ void fight_men();
 void defeat_men();
 void meet_elderman();
 void leave_town();
+void enter_inn();
 
 #endif
