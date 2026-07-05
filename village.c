@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "game.h"
 
 void start()
@@ -28,6 +29,7 @@ void stay_in_inn()
     printf("But the goons break down the door of the tavern anyway, dragging everyone out one by one.\n");
     printf("There is nowhere to run. They kill everyone in the tavern, including you.\n\n");
     printf("YOU DIED.\n");
+    exit(0);
 }
 
 void run_away()
@@ -36,6 +38,7 @@ void run_away()
     printf("But the goons are faster, and better mounted. They catch up to you on the open road.\n");
     printf("Your horse is cut down beneath you, and moments later, so are you.\n\n");
     printf("YOU DIED.\n");
+    exit(0);
 }
 void fight_men()
 {
@@ -62,6 +65,7 @@ void defeat_men()
 void leave_town()
 {
     printf("You Leave the Town and Never Come back\n");
+    exit(0);
 
 }
 void meet_elderman()
@@ -109,4 +113,8 @@ void enter_inn()
     printf("Villager 2: \"You've been saying that for a moon now and nothing's come of it. Drink your ale.\"\n\n");
 
     printf("Baker: \"Everything's odd if you squint hard enough, friend. I've got bread rising.\"\n\n");
+
+    printf("Drink Ale and go to forest?(1 for yes, 2 for no\n");
+    int input = 0; scanf("%i",&input);
+    exit(0);
 }

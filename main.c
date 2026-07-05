@@ -75,7 +75,7 @@ int main()
         if (ch == KEY_DOWN) selected = (selected + 1) % n;
         if (ch == '\n') {
             switch (selected) {
-                case 0:  endwin(); start(); break;
+                case 0:   endwin();start();  break;
                 case 1: /* load_game() */ break;
                 case 2: credits(); break;  // clear() not needed here anymore
                 case 3: endwin(); return 0;
