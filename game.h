@@ -10,5 +10,9 @@ void defeat_men();
 void meet_elderman();
 void leave_town();
 void enter_inn();
+void goto_forest();
+void explore_outskirts();
+void explore_temple();
+void enter_forest();
 
 #endif

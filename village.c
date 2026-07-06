@@ -116,5 +116,12 @@ void enter_inn()
 
     printf("Drink Ale and go to forest?(1 for yes, 2 for no\n");
     int input = 0; scanf("%i",&input);
+    switch(input)
+    {
+        case 1:
+        goto_forest();
+        case 2:
+        printf("You spend some more time at the inn.\n"); enter_inn();
+    }
     exit(0);
 }
