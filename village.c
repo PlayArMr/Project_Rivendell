@@ -84,7 +84,7 @@ void meet_elderman()
     switch(input)
     {
         case 1:
-        //goto_forest(); 
+        goto_forest(); 
         break;
         case 2:
         leave_town(); break;
@@ -119,9 +119,9 @@ void enter_inn()
     switch(input)
     {
         case 1:
-        goto_forest();
+        goto_forest(); break;
         case 2:
-        printf("You spend some more time at the inn.\n"); enter_inn();
+        printf("You spend some more time at the inn.\n"); enter_inn(); break;
     }
     exit(0);
 }
