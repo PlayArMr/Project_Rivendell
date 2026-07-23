@@ -20,7 +20,7 @@ void goto_forest()
         explore_temple();
         break;
         default:
-        printf("Invalid Choive\n"); goto_forest();
+        printf("Invalid Choice\n"); goto_forest();
         break;
     }
 }
