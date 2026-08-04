@@ -62,11 +62,8 @@ void discover_orc_camp()
     printf("The smell reached him before the sight did.\n\n");
 
 printf("Woodsmoke.\n\n");
-
 printf("Cooked meat.\n\n");
-
 printf("The unmistakable scent of wet leather left too long in the rain.\n\n");
-
 printf("The traveller slowed his pace and stepped carefully through a thicket until the trees began to thin. Beyond them lay a clearing where the forest had been forced back by axe and fire.\n\n");
 
 printf("An orc camp.\n\n");
@@ -125,5 +122,104 @@ printf("Someone important lived there.\n\n");
 printf("The camp remained distracted.\n\n");
 
 printf("For now.\n\n");
-
+  
 }
+void enter_tent()
+{
+    printf("The entrance hung open.\n\n");
+
+printf("Inside, the air carried the smell of smoke, iron, and damp animal hide. A single lantern burned quietly from the centre pole, throwing long shadows across the room.\n\n");
+
+printf("The tent was larger than any house in the village. Thick wooden beams supported the roof, while heavy furs covered the ground beneath. Though crudely built, everything had its place.\n\n");
+
+printf("A heavy wooden table occupied the centre of the tent. Maps lay scattered across it, pinned beneath daggers to stop them curling at the edges. Beside the table rested an iron-bound chest. Its lock had been forged by human hands, not orcish ones.\n\n");
+
+printf("Along one wall stood trophies collected over many years.\n\n");
+
+printf("The skull of a great bear.\n\n");
+
+printf("The antlers of a stag.\n\n");
+
+printf("A faded banner whose kingdom had likely vanished long ago.\n\n");
+
+printf("Several swords rested upon a wooden rack, cleaned far more carefully than one would expect of an orc.\n\n");
+
+printf("The traveller looked about the tent slowly.\n\n");
+
+printf("Orcs were known for many things. Discipline was seldom one of them.\n\n");
+
+printf("Yet the room was almost orderly.\n\n");
+
+printf("Books rested upon a shelf carved directly into one of the support beams. Letters lay neatly tied together with cord. Ink bottles, quills, and rolled parchments occupied another corner.\n\n");
+
+printf("Someone had taught this chieftain more than war.\n\n");
+
+printf("Or perhaps...\n\n");
+
+printf("Someone else was giving the orders.\n\n");
+
+printf("Three things drew the traveller's attention.\n\n");
+
+printf("The iron-bound chest.\n\n");
+
+printf("The bundle of letters.\n\n");
+
+printf("And the map spread across the table.\n\n");
+}
+void fight_chief()
+{
+    printf("The canvas behind him shifted.\n\n");
+
+printf("Heavy footsteps followed.\n\n");
+
+printf("The traveller turned.\n\n");
+
+printf("The chieftain stood in the entrance.\n\n");
+
+printf("He was taller than any man the traveller had ever seen. Age had silvered parts of his beard, yet his shoulders remained broad enough to block the afternoon light pouring through the tent entrance. One eye had long since been lost beneath an old scar, but the other watched silently, studying the intruder without anger.\n\n");
+
+printf("He carried no shield.\n\n");
+
+printf("Only an axe.\n\n");
+
+printf("Its edge bore the marks of countless sharpenings.\n\n");
+
+printf("\"Human,\" the chieftain said quietly.\n\n");
+
+printf("His voice carried no surprise.\n\n");
+
+printf("\"You walked far to die.\"\n\n");
+
+printf("The traveller answered only by drawing his sword.\n\n");
+
+printf("Steel sang softly as it left the scabbard.\n\n");
+
+printf("For a moment, neither moved.\n\n");
+
+printf("Outside, the camp continued as though nothing had happened. Somewhere beyond the tent walls an orc laughed. A log cracked in the fire. The forest wind stirred the banners overhead.\n\n");
+
+printf("Then the axe came down.\n\n");
+
+printf("The table split cleanly in two.\n\n");
+
+printf("Maps scattered across the tent like frightened birds.\n\n");
+
+printf("The traveller threw himself aside just as the blade buried itself into the wooden floor.\n\n");
+
+printf("The chieftain wrenched it free without effort.\n\n");
+
+printf("There was no fury upon his face.\n\n");
+
+printf("Only experience.\n\n");
+
+printf("This was not the first man he had killed.\n\n");
+
+printf("Nor, he believed, would it be the last.\n\n");
+
+printf("The traveller tightened his grip upon the sword.\n\n");
+
+printf("There would be no words now.\n\n");
+
+printf("Only steel.\n\n");
+}
+
